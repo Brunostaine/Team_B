@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novos posts</title>
+    <link rel="stylesheet" href="post-container.css">
+    <link rel="stylesheet" href="reset-post.css">
+    <link rel="stylesheet" href="formulario-post.css">
+    <link rel="stylesheet" href="form-post.css">
+    <link rel="stylesheet" href="box.css">
+</head>
+<body>
+    <main class="post__container">
+        
+        <form class="formulario__post">
+
+            <div class="form__post">
+                <img class="imagem__usuario" src="../../imagens/user.png" alt="">
+                <h3 id="nome__usuario" class="titulo__usuario">Nome teste</h3>
+            </div>
+
+            <div class="box__1">
+                <label for="titulo-box">
+                    <h2>Titulo</h2>
+                </label>
+                <input class="input__text" type="text" id="titulo-box">
+                <label for="url-box">
+                    URL da Imagem
+                </label>
+                <input class="input__text" type="text" name="" id="url-box">
+                <label for="texto-box">
+                    Texto
+                </label>
+                <textarea class="text__area" name="" id="texto-box" cols="59" rows="10"></textarea>
+            </div>
+
+            <div class="box__2">
+                <div class="box__2-filho1">
+                    <label class="categoria-box" for="categoria">
+                        <h2>Categorias</h2>
+                    </label>
+                    <input class="input__text-box2" type="text" id="categoria"/>
+                </div>
+
+                <div>
+                    <label class="hash-box"  for="hash">
+                        <h2>Hashtags</h2>
+                    </label >
+                    <input class="input__text-box2" type="text" id="">
+                </div>
+            </div>
+
+            <input class="btn__postar" type="button" value="Postar">
+        </form>
+    
+    </main>
+</body>
+</html>
